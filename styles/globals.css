@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply px-2 py-4 sm:p-10 rounded-2xl ring-2 ring-gray-200 focus:outline-none active:ring-red-600 hover:ring-gray-500 dark:bg-gray-200 dark:text-black
+    }
+
+    .btn--primary {
+        @apply shadow-lg
+    }
+}
+
